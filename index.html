@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav> The Perfume Shop</nav>
+    </header>
+
+    <div id="formCont">
+        <form id="form">
+            <label for="type"> perfume name:</label><br>
+            <input type="text" name="type" id="type">
+
+            <label for="quantity">quantity</label><br>
+            <input type="number" name="quantity" id="quantity">
+
+            <input type="submit" name="add" value="ADD" id="add">  
+        </form>
+    </div>
+
+
+    <div id="tableCont">
+        <h2>My Perfume List</h2>
+        <table id="table">
+            <thead>
+                <th> perfume</th>
+                <th>quantity</th>
+                <th>price</th>
+            </thead>
+
+            <tbody id="tbody"></tbody>
+
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
