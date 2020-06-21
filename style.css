@@ -1,10 +1,12 @@
 body {
     background-image: url('bg.jpg');
-    background-size: 1028px 720px;
-    background-repeat: none;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-position: center center;  
 }
 
 nav {
+    top:0;
     width: 100%;
     height: 70px;
     background-color: #3a303099;
@@ -45,7 +47,7 @@ thead {
 
 #tableCont {
     float: right;
-    margin-right: 300px;
+    margin-right: 200px;
     font-family: 'Lobster', cursive;
     background-color: #3a303099;
     padding: 10px;
